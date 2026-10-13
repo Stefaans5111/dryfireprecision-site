@@ -2,6 +2,7 @@
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Privacy policy — DRYFIRE</title>
+<meta name="description" content="How the DRYFIRE app handles your information: no account, no ads, no analytics. Your settings and photos stay on your device.">
 <link rel="stylesheet" href="css/ds.css">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap">
@@ -10,6 +11,17 @@
 body{margin:0;background:#15181C;color:#F2F4F5;font-family:Roboto,system-ui,sans-serif}
 a{color:#F2A33A}
 a:hover{color:#F7B85E}
+.pp{border-top:1px solid #2F363E;padding:28px 0}
+.pp h2{font-size:22px;font-weight:900;text-transform:uppercase;margin:0 0 12px}
+.pp p,.pp li{font-size:17px;line-height:1.6;color:#98A1AB}
+.pp p{margin:0 0 12px}.pp p:last-child{margin-bottom:0}
+.pp ul{margin:0 0 12px;padding-left:22px}.pp ul:last-child{margin-bottom:0}
+.pp li{margin:0 0 6px}.pp li::marker{color:#F2A33A}
+.pp strong{color:#F2F4F5}
+.pp-meta{display:grid;grid-template-columns:max-content 1fr;gap:6px 20px;margin:0 0 40px;font-size:16px;line-height:1.5}
+.pp-meta dt{font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#98A1AB;padding-top:2px}
+.pp-meta dd{margin:0;color:#F2F4F5}
+@media (max-width:480px){.pp-meta{grid-template-columns:1fr;gap:0}.pp-meta dd{margin-bottom:10px}}
 </style>
 <link rel="icon" type="image/png" href="assets/dryfire-app-icon-512.png">
 <link rel="apple-touch-icon" href="assets/dryfire-app-icon-512.png">
@@ -54,24 +66,124 @@ a:hover{color:#F7B85E}
 </header>
 
 <main style="max-width:800px;margin:0 auto;padding:clamp(48px,8vw,96px) clamp(16px,4vw,40px) clamp(64px,9vw,112px)">
-  <div style="display:inline-block;font-size:13px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#F2A33A;padding-bottom:8px;border-bottom:2px solid #F2A33A;margin-bottom:20px">Last updated 12 October 2026</div>
+  <div style="display:inline-block;font-size:13px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#F2A33A;padding-bottom:8px;border-bottom:2px solid #F2A33A;margin-bottom:20px">Effective 13 October 2026</div>
   <h1 style="font-size:clamp(40px,7vw,72px);font-weight:900;line-height:1;text-transform:uppercase;margin:0 0 24px">Privacy policy</h1>
-  <p style="margin:0 0 40px;font-size:18px;line-height:1.6;color:#F2F4F5;max-width:62ch">DRYFIRE has no accounts and collects no names, emails or location.</p>
-  <section style="border-top:1px solid #2F363E;padding:28px 0">
-    <h2 style="font-size:22px;font-weight:900;text-transform:uppercase;margin:0 0 10px">Stored on your device</h2>
-    <p style="margin:0;font-size:17px;line-height:1.6;color:#98A1AB">Settings, ranges, targets and calibration are stored only on your device. Your own range photos stay on your phone.</p>
+  <dl class="pp-meta">
+    <dt>App</dt><dd>DRYFIRE: Precision and Hunting (Android, and iOS when available)</dd>
+    <dt>Developer</dt><dd>Stefan Kruger, trading as DRYFIRE Precision, South Africa</dd>
+    <dt>Contact</dt><dd><a href="mailto:dryfireapp@gmail.com">dryfireapp@gmail.com</a></dd>
+    <dt>Website</dt><dd><a href="https://dryfireprecision.com">dryfireprecision.com</a></dd>
+  </dl>
+
+  <section class="pp">
+    <h2>1. Summary</h2>
+    <p>We built this app to collect as little information as possible.</p>
+    <ul>
+      <li><strong>No account is needed.</strong> We don't ask for your name, email address or phone number to use the app.</li>
+      <li><strong>No advertising</strong> and <strong>no ad tracking</strong>.</li>
+      <li><strong>No analytics</strong> that track how you use the app.</li>
+      <li>Your settings, training data and photos stay <strong>on your device</strong>.</li>
+      <li>Purchases are handled by <strong>Google Play</strong> (and Apple, on iOS).</li>
+    </ul>
   </section>
-  <section style="border-top:1px solid #2F363E;padding:28px 0">
-    <h2 style="font-size:22px;font-weight:900;text-transform:uppercase;margin:0 0 10px">Purchases</h2>
-    <p style="margin:0;font-size:17px;line-height:1.6;color:#98A1AB">Purchases go through Google Play. Our purchase provider, RevenueCat, uses an anonymous app user ID to know whether Full Access was bought. We never see your payment details.</p>
+
+  <section class="pp">
+    <h2>2. Information stored on your device only</h2>
+    <p>The app stores the following on your phone or tablet so it works the way you set it up. It is <strong>not sent to us</strong>:</p>
+    <ul>
+      <li>Screen calibration and viewing distance</li>
+      <li>Your selected props and equipment</li>
+      <li>Range layouts, stages and training history</li>
+      <li>Photos you've chosen as range backgrounds</li>
+      <li>App settings and preferences</li>
+      <li>Trial start dates and unlock status</li>
+    </ul>
+    <p>Uninstalling the app deletes this information.</p>
   </section>
-  <section style="border-top:1px solid #2F363E;padding:28px 0">
-    <h2 style="font-size:22px;font-weight:900;text-transform:uppercase;margin:0 0 10px">What leaves the app</h2>
-    <p style="margin:0;font-size:17px;line-height:1.6;color:#98A1AB">Nothing is sent from the app unless you choose to copy or email diagnostics.</p>
+
+  <section class="pp">
+    <h2>3. Photos</h2>
+    <p>To create custom ranges, you can choose a <strong>photo from your device</strong> to use as a range background.</p>
+    <ul>
+      <li>You choose which photo to use. The app <strong>only accesses the photos you select</strong>, not your whole gallery.</li>
+      <li>Selected photos are <strong>stored on your device only</strong>, inside the app.</li>
+      <li>Photos are <strong>never uploaded</strong> to us or anyone else.</li>
+      <li>Removing a custom range, or uninstalling the app, deletes the app's copy of the photo. Your original photo stays in your gallery.</li>
+    </ul>
   </section>
-  <section style="border-top:1px solid #2F363E;border-bottom:1px solid #2F363E;padding:28px 0">
-    <h2 style="font-size:22px;font-weight:900;text-transform:uppercase;margin:0 0 10px">Contact</h2>
-    <p style="margin:0;font-size:17px;line-height:1.6;color:#98A1AB">Questions about this policy: <a href="mailto:dryfireapp@gmail.com">dryfireapp@gmail.com</a></p>
+
+  <section class="pp">
+    <h2>4. Notifications</h2>
+    <p>The app may show <strong>local notifications</strong>, such as trial reminders or practice reminders you switch on. These are created on your device. <strong>No information is sent to us or anyone else.</strong> You can turn notifications off at any time in the app or in your phone's settings.</p>
+  </section>
+
+  <section class="pp">
+    <h2>5. Purchases and free trials</h2>
+    <p>In-app purchases are processed by <strong>Google Play</strong> (or the <strong>Apple App Store</strong> on iOS). We <strong>never</strong> receive or store your card or banking details.</p>
+    <p>To check whether you've bought a feature and to restore purchases, the app uses <strong>RevenueCat</strong>, a purchase-management service. RevenueCat receives:</p>
+    <ul>
+      <li>your <strong>purchase history</strong> for this app (which products you bought and when)</li>
+      <li>an <strong>anonymous app user ID</strong>, which doesn't include your name or email address</li>
+    </ul>
+    <p>This information is used <strong>only</strong> to unlock what you've paid for. It isn't used for advertising.</p>
+    <ul>
+      <li>Google Play privacy policy: <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">policies.google.com/privacy</a></li>
+      <li>RevenueCat privacy policy: <a href="https://www.revenuecat.com/privacy" target="_blank" rel="noopener">revenuecat.com/privacy</a></li>
+    </ul>
+  </section>
+
+  <section class="pp">
+    <h2>6. If you contact us</h2>
+    <p>If you choose to contact us by <strong>email, WhatsApp or the contact form on this website</strong>, for example to ask a question, order a scope adapter, or ask to be notified about new features, we receive the details you send us, such as your name, phone number, email address and message.</p>
+    <ul>
+      <li>We use them <strong>only</strong> to reply to you or to do what you asked (for example, notify you once when a feature launches).</li>
+      <li>We <strong>don't sell or share</strong> them for marketing.</li>
+      <li>You can ask us to <strong>delete</strong> them at any time.</li>
+    </ul>
+    <p>Messages sent through the website contact form are delivered to our inbox by <strong>Web3Forms</strong>, a form-delivery service (<a href="https://web3forms.com/privacy" target="_blank" rel="noopener">web3forms.com/privacy</a>).</p>
+  </section>
+
+  <section class="pp">
+    <h2>7. What we do not do</h2>
+    <ul>
+      <li>We don't sell your information.</li>
+      <li>We don't show ads or use ad tracking.</li>
+      <li>We don't access your location, contacts, camera or microphone. We only access the <strong>specific photos you choose</strong> for range backgrounds.</li>
+      <li>We don't use your information to build profiles about you.</li>
+    </ul>
+  </section>
+
+  <section class="pp">
+    <h2>8. Children</h2>
+    <p>This app is intended for <strong>adults (18+)</strong> who take part in shooting sports and hunting. It isn't directed at children, and we don't knowingly collect information from anyone under 18.</p>
+  </section>
+
+  <section class="pp">
+    <h2>9. Your rights (POPIA)</h2>
+    <p>Under South Africa's <strong>Protection of Personal Information Act (POPIA)</strong>, you have the right to:</p>
+    <ul>
+      <li>ask what personal information we hold about you</li>
+      <li>ask us to correct or delete it</li>
+      <li>object to how it's used</li>
+      <li>lodge a complaint with the <strong>Information Regulator</strong> (<a href="https://inforegulator.org.za" target="_blank" rel="noopener">inforegulator.org.za</a>)</li>
+    </ul>
+    <p>To make a request, email <a href="mailto:dryfireapp@gmail.com">dryfireapp@gmail.com</a>. We'll reply within a reasonable time.</p>
+  </section>
+
+  <section class="pp">
+    <h2>10. Security</h2>
+    <p>Information stored on your device is protected by your device's own security. Any information you send us directly is kept only as long as needed and is stored securely.</p>
+  </section>
+
+  <section class="pp">
+    <h2>11. Changes to this policy</h2>
+    <p>We may update this policy when the app changes, for example if we add new features. The latest version will always be on this page, with the effective date at the top.</p>
+  </section>
+
+  <section class="pp" style="border-bottom:1px solid #2F363E">
+    <h2>12. Contact</h2>
+    <p>Questions about this policy?</p>
+    <p><strong>Email:</strong> <a href="mailto:dryfireapp@gmail.com">dryfireapp@gmail.com</a><br><strong>Website:</strong> <a href="https://dryfireprecision.com">dryfireprecision.com</a></p>
   </section>
 </main>
 
