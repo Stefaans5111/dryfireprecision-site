@@ -11,52 +11,52 @@
 body{margin:0;background:#15181C;color:#F2F4F5;font-family:Roboto,system-ui,sans-serif}
 a{color:#F2A33A}
 a:hover{color:#F7B85E}
-.ad{max-width:1200px;margin:0 auto;padding:clamp(48px,8vw,96px) clamp(16px,4vw,40px) clamp(64px,9vw,112px);display:flex;flex-direction:column;gap:clamp(40px,6vw,64px)}
-.ad-eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#F2A33A;padding-bottom:8px;border-bottom:2px solid #F2A33A;margin-bottom:20px}
-.ad-intro h1{font-size:clamp(36px,6.4vw,72px);font-weight:900;line-height:1;text-transform:uppercase;margin:0 0 20px;max-width:16ch;text-wrap:balance}
-.ad-lede{margin:0;font-size:clamp(17px,1.6vw,19px);line-height:1.6;color:#98A1AB;max-width:60ch}
-.ad-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px;align-items:stretch}
-.ad-card{background:#1F242A;border:1px solid #2F363E;border-radius:18px;padding:28px;display:flex;flex-direction:column;align-items:flex-start;gap:14px;min-width:0}
-.ad-card h2{font-size:clamp(24px,2.6vw,28px);font-weight:900;line-height:1.05;text-transform:uppercase;margin:0}
-.ad-card p{margin:0;font-size:17px;line-height:1.6;color:#98A1AB}
-.ad-card-diy{background:transparent}
-.ad-tag{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#F2F4F5;background:#2B323A;border-radius:999px;padding:6px 14px 6px 8px}
-.ad-tag-outline{background:transparent;border:1.5px solid #F2A33A;color:#F2A33A;padding:5px 12px}
-.ad-flag{display:block;width:24px;height:16px;border-radius:2px;box-shadow:0 0 0 1px #3A434D;object-fit:cover}
-.ad-suppliers{align-self:stretch;display:flex;flex-direction:column;margin-top:auto;padding-top:8px}
-.ad-supplier{display:flex;flex-direction:column;gap:2px;padding:16px 0;border-top:1px solid #2F363E}
-.ad-supplier-name{font-size:18px;font-weight:700}
-.ad-supplier-product{font-size:15px;color:#98A1AB;margin-bottom:12px}
-.ad-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:10px;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;text-align:center}
-.ad-btn-primary{background:#F2A33A;color:#1A1200;align-self:stretch}
-.ad-btn-primary:hover{background:#E08E22;color:#1A1200}
-.ad-btn-outline{margin-top:auto;align-self:stretch;border:1.5px solid #5A6470;color:#F2F4F5;background:transparent}
-.ad-btn-outline:hover{border-color:#F2A33A;color:#F2A33A}
-.ad-btn-small{min-height:44px;padding:0 16px;font-size:13px;border:1.5px solid #5A6470;color:#F2F4F5;background:#2B323A;white-space:nowrap}
-.ad-btn-small:hover{border-color:#F2A33A;color:#F2A33A}
-.ad-btn:focus-visible{outline:2px solid #F2A33A;outline-offset:3px}
-.ad-build{border-top:1px solid #2F363E;padding-top:clamp(40px,6vw,64px);display:flex;flex-direction:column;gap:28px;scroll-margin-top:140px}
-.ad-build>h2{font-size:clamp(28px,3.6vw,40px);font-weight:900;line-height:1.05;text-transform:uppercase;margin:0}
-.ad-build h3{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:.02em;margin:12px 0 0}
-.ad-video{margin:0;max-width:880px;display:flex;flex-direction:column;gap:12px}
-.ad-video-frame{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:16px;overflow:hidden;border:1px solid #2F363E;background:#0F1215}
-.ad-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.ad-video-intro{margin:0;font-size:17px;line-height:1.6;color:#F2F4F5;max-width:60ch}
-.ad-video figcaption{display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.6;color:#98A1AB}
-.ad-video figcaption p{margin:0}
-.ad-video figcaption strong{color:#F2F4F5}
-.ad-disclaimer{font-size:14px;padding-top:10px;border-top:1px solid #2F363E}
-.ad-parts{list-style:none;margin:0;padding:0;border-top:1px solid #2F363E;max-width:880px}
-.ad-part{display:grid;grid-template-columns:1fr;gap:4px 24px;padding:18px 0;border-bottom:1px solid #2F363E;align-items:center}
-.ad-part-name{font-size:17px;font-weight:700;min-width:0}
-.ad-part-detail{font-size:16px;color:#98A1AB;min-width:0}
-.ad-part .ad-btn{justify-self:start;margin-top:10px}
-@media (min-width:760px){.ad-part{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) auto}.ad-part .ad-btn{margin-top:0}}
-.ad-warn{max-width:880px;display:flex;gap:18px;align-items:flex-start;background:#1F242A;border:1.5px solid #F2A33A;border-radius:16px;padding:22px 24px}
-.ad-warn-icon{flex:none;color:#F2A33A}
-.ad-warn p{margin:0;font-size:17px;line-height:1.6;color:#F2F4F5;min-width:0}
-.ad-warn strong{color:#F2A33A;text-transform:uppercase;letter-spacing:.04em}
-.ad-note{margin:0;font-size:15px;line-height:1.6;color:#98A1AB;max-width:70ch}
+.lens{max-width:1200px;margin:0 auto;padding:clamp(48px,8vw,96px) clamp(16px,4vw,40px) clamp(64px,9vw,112px);display:flex;flex-direction:column;gap:clamp(40px,6vw,64px)}
+.lens-eyebrow{display:inline-block;font-size:13px;font-weight:700;letter-spacing:.15em;text-transform:uppercase;color:#F2A33A;padding-bottom:8px;border-bottom:2px solid #F2A33A;margin-bottom:20px}
+.lens-intro h1{font-size:clamp(36px,6.4vw,72px);font-weight:900;line-height:1;text-transform:uppercase;margin:0 0 20px;max-width:16ch;text-wrap:balance}
+.lens-lede{margin:0;font-size:clamp(17px,1.6vw,19px);line-height:1.6;color:#98A1AB;max-width:60ch}
+.lens-cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(min(100%,320px),1fr));gap:20px;align-items:stretch}
+.lens-card{background:#1F242A;border:1px solid #2F363E;border-radius:18px;padding:28px;display:flex;flex-direction:column;align-items:flex-start;gap:14px;min-width:0}
+.lens-card h2{font-size:clamp(24px,2.6vw,28px);font-weight:900;line-height:1.05;text-transform:uppercase;margin:0}
+.lens-card p{margin:0;font-size:17px;line-height:1.6;color:#98A1AB}
+.lens-card-diy{background:transparent}
+.lens-tag{display:inline-flex;align-items:center;gap:10px;font-size:12px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:#F2F4F5;background:#2B323A;border-radius:999px;padding:6px 14px 6px 8px}
+.lens-tag-outline{background:transparent;border:1.5px solid #F2A33A;color:#F2A33A;padding:5px 12px}
+.lens-flag{display:block;width:24px;height:16px;border-radius:2px;box-shadow:0 0 0 1px #3A434D;object-fit:cover}
+.lens-suppliers{align-self:stretch;display:flex;flex-direction:column;margin-top:auto;padding-top:8px}
+.lens-supplier{display:flex;flex-direction:column;gap:2px;padding:16px 0;border-top:1px solid #2F363E}
+.lens-supplier-name{font-size:18px;font-weight:700}
+.lens-supplier-product{font-size:15px;color:#98A1AB;margin-bottom:12px}
+.lens-btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:48px;padding:0 20px;border-radius:10px;font-weight:700;font-size:14px;letter-spacing:.06em;text-transform:uppercase;text-decoration:none;text-align:center}
+.lens-btn-primary{background:#F2A33A;color:#1A1200;align-self:stretch}
+.lens-btn-primary:hover{background:#E08E22;color:#1A1200}
+.lens-btn-outline{margin-top:auto;align-self:stretch;border:1.5px solid #5A6470;color:#F2F4F5;background:transparent}
+.lens-btn-outline:hover{border-color:#F2A33A;color:#F2A33A}
+.lens-btn-small{min-height:44px;padding:0 16px;font-size:13px;border:1.5px solid #5A6470;color:#F2F4F5;background:#2B323A;white-space:nowrap}
+.lens-btn-small:hover{border-color:#F2A33A;color:#F2A33A}
+.lens-btn:focus-visible{outline:2px solid #F2A33A;outline-offset:3px}
+.lens-build{border-top:1px solid #2F363E;padding-top:clamp(40px,6vw,64px);display:flex;flex-direction:column;gap:28px;scroll-margin-top:140px}
+.lens-build>h2{font-size:clamp(28px,3.6vw,40px);font-weight:900;line-height:1.05;text-transform:uppercase;margin:0}
+.lens-build h3{font-size:20px;font-weight:900;text-transform:uppercase;letter-spacing:.02em;margin:12px 0 0}
+.lens-video{margin:0;max-width:880px;display:flex;flex-direction:column;gap:12px}
+.lens-video-frame{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:16px;overflow:hidden;border:1px solid #2F363E;background:#0F1215}
+.lens-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.lens-video-intro{margin:0;font-size:17px;line-height:1.6;color:#F2F4F5;max-width:60ch}
+.lens-video figcaption{display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.6;color:#98A1AB}
+.lens-video figcaption p{margin:0}
+.lens-video figcaption strong{color:#F2F4F5}
+.lens-disclaimer{font-size:14px;padding-top:10px;border-top:1px solid #2F363E}
+.lens-parts{list-style:none;margin:0;padding:0;border-top:1px solid #2F363E;max-width:880px}
+.lens-part{display:grid;grid-template-columns:1fr;gap:4px 24px;padding:18px 0;border-bottom:1px solid #2F363E;align-items:center}
+.lens-part-name{font-size:17px;font-weight:700;min-width:0}
+.lens-part-detail{font-size:16px;color:#98A1AB;min-width:0}
+.lens-part .lens-btn{justify-self:start;margin-top:10px}
+@media (min-width:760px){.lens-part{grid-template-columns:minmax(0,1.1fr) minmax(0,1fr) auto}.lens-part .lens-btn{margin-top:0}}
+.lens-warn{max-width:880px;display:flex;gap:18px;align-items:flex-start;background:#1F242A;border:1.5px solid #F2A33A;border-radius:16px;padding:22px 24px}
+.lens-warn-icon{flex:none;color:#F2A33A}
+.lens-warn p{margin:0;font-size:17px;line-height:1.6;color:#F2F4F5;min-width:0}
+.lens-warn strong{color:#F2A33A;text-transform:uppercase;letter-spacing:.04em}
+.lens-note{margin:0;font-size:15px;line-height:1.6;color:#98A1AB;max-width:70ch}
 @media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
 </style>
 <link rel="icon" type="image/png" href="assets/dryfire-app-icon-512.png">
@@ -103,96 +103,96 @@ a:hover{color:#F7B85E}
   </div>
 </header>
 
-<main class="ad">
-  <section class="ad-intro" aria-labelledby="ad-h">
-    <div class="ad-eyebrow">Scope adapters</div>
-    <h1 id="ad-h">Get your scope lens adapter</h1>
-    <p class="ad-lede">The adapter lets your rifle scope focus sharply on a screen about 3&nbsp;m away, so dry-fire targets look crisp through the scope.</p>
+<main class="lens">
+  <section class="lens-intro" aria-labelledby="lens-h">
+    <div class="lens-eyebrow">Scope adapters</div>
+    <h1 id="lens-h">Get your scope lens adapter</h1>
+    <p class="lens-lede">The adapter lets your rifle scope focus sharply on a screen about 3&nbsp;m away, so dry-fire targets look crisp through the scope.</p>
   </section>
 
-  <div class="ad-cards">
-    <section class="ad-card" aria-labelledby="usa-h">
-      <span class="ad-tag"><svg class="ad-flag" width="30" height="16" viewBox="0 0 190 100" aria-hidden="true"><rect width="190" height="100" fill="#FFFFFF"/><g fill="#B22234"><rect y="0" width="190" height="7.7"/><rect y="15.4" width="190" height="7.7"/><rect y="30.8" width="190" height="7.7"/><rect y="46.2" width="190" height="7.7"/><rect y="61.5" width="190" height="7.7"/><rect y="76.9" width="190" height="7.7"/><rect y="92.3" width="190" height="7.7"/></g><rect width="76" height="53.85" fill="#3C3B6E"/></svg>USA</span>
+  <div class="lens-cards">
+    <section class="lens-card" aria-labelledby="usa-h">
+      <span class="lens-tag"><svg class="lens-flag" width="30" height="16" viewBox="0 0 190 100" aria-hidden="true"><rect width="190" height="100" fill="#FFFFFF"/><g fill="#B22234"><rect y="0" width="190" height="7.7"/><rect y="15.4" width="190" height="7.7"/><rect y="30.8" width="190" height="7.7"/><rect y="46.2" width="190" height="7.7"/><rect y="61.5" width="190" height="7.7"/><rect y="76.9" width="190" height="7.7"/><rect y="92.3" width="190" height="7.7"/></g><rect width="76" height="53.85" fill="#3C3B6E"/></svg>USA</span>
       <h2 id="usa-h">Buy ready-made</h2>
       <p>Ready to fit. Ships within the USA.</p>
-      <div class="ad-suppliers">
-        <div class="ad-supplier">
-          <span class="ad-supplier-name">DST Precision</span>
-          <span class="ad-supplier-product">DFAT Lens Adaptor</span>
-          <a class="ad-btn ad-btn-primary" href="https://dstprecision.us/" target="_blank" rel="noopener">Buy from DST Precision</a>
+      <div class="lens-suppliers">
+        <div class="lens-supplier">
+          <span class="lens-supplier-name">DST Precision</span>
+          <span class="lens-supplier-product">DFAT Lens Adaptor</span>
+          <a class="lens-btn lens-btn-primary" href="https://dstprecision.us/" target="_blank" rel="noopener">Buy from DST Precision</a>
         </div>
-        <div class="ad-supplier">
-          <span class="ad-supplier-name">IDTS Dryfire</span>
-          <span class="ad-supplier-product">IDTS Lens Adapter</span>
-          <a class="ad-btn ad-btn-primary" href="https://idts-dryfire.com/" target="_blank" rel="noopener">Buy from IDTS Dryfire</a>
+        <div class="lens-supplier">
+          <span class="lens-supplier-name">IDTS Dryfire</span>
+          <span class="lens-supplier-product">IDTS Lens Adapter</span>
+          <a class="lens-btn lens-btn-primary" href="https://idts-dryfire.com/" target="_blank" rel="noopener">Buy from IDTS Dryfire</a>
         </div>
       </div>
     </section>
 
-    <section class="ad-card" aria-labelledby="za-h">
-      <span class="ad-tag"><img class="ad-flag" src="assets/flag-za.png" width="30" height="20" alt="">South Africa</span>
+    <section class="lens-card" aria-labelledby="za-h">
+      <span class="lens-tag"><img class="lens-flag" src="assets/flag-za.png" width="30" height="20" alt="">South Africa</span>
       <h2 id="za-h">Buy ready-made</h2>
       <p>Made to order for your scope's bell size. Ships within South Africa.</p>
-      <div class="ad-suppliers">
-        <div class="ad-supplier">
-          <span class="ad-supplier-name">SLK Reloading</span>
-          <span class="ad-supplier-product">Dryfire Lens Adaptor</span>
-          <a class="ad-btn ad-btn-primary" href="https://www.slk-reloading.co.za/" target="_blank" rel="noopener">Buy from SLK Reloading</a>
+      <div class="lens-suppliers">
+        <div class="lens-supplier">
+          <span class="lens-supplier-name">SLK Reloading</span>
+          <span class="lens-supplier-product">Dryfire Lens Adaptor</span>
+          <a class="lens-btn lens-btn-primary" href="https://www.slk-reloading.co.za/" target="_blank" rel="noopener">Buy from SLK Reloading</a>
         </div>
       </div>
     </section>
 
-    <section class="ad-card ad-card-diy" aria-labelledby="diy-card-h">
-      <span class="ad-tag ad-tag-outline">DIY · No 3D printing needed</span>
+    <section class="lens-card lens-card-diy" aria-labelledby="diy-card-h">
+      <span class="lens-tag lens-tag-outline">DIY · No 3D printing needed</span>
       <h2 id="diy-card-h">Build your own</h2>
       <p>Make it yourself in a few minutes with a scope flip cap and a lens. All parts are available on Amazon.</p>
-      <a class="ad-btn ad-btn-outline" href="#build">See how to build it</a>
+      <a class="lens-btn lens-btn-outline" href="#build">See how to build it</a>
     </section>
   </div>
 
-  <section id="build" class="ad-build" aria-labelledby="build-h">
+  <section id="build" class="lens-build" aria-labelledby="build-h">
     <h2 id="build-h">Build your own</h2>
 
-    <p class="ad-video-intro">The video below is a great walkthrough that covers everything you need to build your own adapter: parts, measurements and assembly.</p>
+    <p class="lens-video-intro">The video below is a great walkthrough that covers everything you need to build your own adapter: parts, measurements and assembly.</p>
 
-    <figure class="ad-video">
-      <div class="ad-video-frame">
+    <figure class="lens-video">
+      <div class="lens-video-frame">
         <iframe src="https://www.youtube-nocookie.com/embed/E-xxInohcMI" title="The Best DIY Dry Fire Tool for Scoped Rifles" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
         
       </div>
       <figcaption>
         <p><strong>Video credit:</strong> This video was created by <a href="https://www.youtube.com/@TruthThenFreedom" target="_blank" rel="noopener">Truth Then Freedom</a> on YouTube. All credit for the content goes to him. If you find it useful, please give it a like and subscribe to his channel to support his work.</p>
         <p>Original idea by chrisward3: <a href="https://www.canadiangunnutz.com/forum/threads/diy-iota-indoor-optical-training-aid.1687433/" target="_blank" rel="noopener">DIY IOTA (Indoor Optical Training Aid)</a> on Canadian Gun Nutz.</p>
-        <p class="ad-disclaimer"><strong>Disclaimer:</strong> This video is shared for informational purposes only. Truth Then Freedom is not affiliated with, sponsored by or endorsing DRYFIRE (dryfireprecision.com). Any mention of “dry fire” in the video refers to the practice of dry-fire training, not to this website or app.</p>
+        <p class="lens-disclaimer"><strong>Disclaimer:</strong> This video is shared for informational purposes only. Truth Then Freedom is not affiliated with, sponsored by or endorsing DRYFIRE (dryfireprecision.com). Any mention of “dry fire” in the video refers to the practice of dry-fire training, not to this website or app.</p>
       </figcaption>
     </figure>
 
     <h3>Parts list</h3>
-    <!-- To add a part, copy one <li class="ad-part"> block. To remove one, delete its block. -->
-    <ul class="ad-parts">
-      <li class="ad-part">
-        <span class="ad-part-name">Flip-up scope cap (Butler Creek type)</span>
-        <span class="ad-part-detail">Must match your scope's bell size</span>
-        <a class="ad-btn ad-btn-small" href="https://www.amazon.com/dp/B000GWIU1S" target="_blank" rel="noopener">View on Amazon</a>
+    <!-- To add a part, copy one <li class="lens-part"> block. To remove one, delete its block. -->
+    <ul class="lens-parts">
+      <li class="lens-part">
+        <span class="lens-part-name">Flip-up scope cap (Butler Creek type)</span>
+        <span class="lens-part-detail">Must match your scope's bell size</span>
+        <a class="lens-btn lens-btn-small" href="https://www.amazon.com/dp/B000GWIU1S" target="_blank" rel="noopener">View on Amazon</a>
       </li>
-      <li class="ad-part">
-        <span class="ad-part-name">Optical lens</span>
-        <span class="ad-part-detail">As used in the video</span>
-        <a class="ad-btn ad-btn-small" href="https://a.co/d/0fgmWA2I" target="_blank" rel="noopener">View on Amazon</a>
+      <li class="lens-part">
+        <span class="lens-part-name">Optical lens</span>
+        <span class="lens-part-detail">As used in the video</span>
+        <a class="lens-btn lens-btn-small" href="https://a.co/d/0fgmWA2I" target="_blank" rel="noopener">View on Amazon</a>
       </li>
-      <li class="ad-part">
-        <span class="ad-part-name">Tape</span>
-        <span class="ad-part-detail">As used in the video</span>
-        <a class="ad-btn ad-btn-small" href="https://a.co/d/06Mm8Obx" target="_blank" rel="noopener">View on Amazon</a>
+      <li class="lens-part">
+        <span class="lens-part-name">Tape</span>
+        <span class="lens-part-detail">As used in the video</span>
+        <a class="lens-btn lens-btn-small" href="https://a.co/d/06Mm8Obx" target="_blank" rel="noopener">View on Amazon</a>
       </li>
     </ul>
 
-    <div class="ad-warn" role="note">
-      <svg class="ad-warn-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h32v7H4z"/><path d="M8 15v17l4-4V15"/><path d="M24 15v13l-4 4V15"/><path d="M20 8v7M24 8v7"/><path d="M9 8v3M13 8v3M17 8v3M28 8v3M32 8v3"/></svg>
+    <div class="lens-warn" role="note">
+      <svg class="lens-warn-icon" width="40" height="40" viewBox="0 0 40 40" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 8h32v7H4z"/><path d="M8 15v17l4-4V15"/><path d="M24 15v13l-4 4V15"/><path d="M20 8v7M24 8v7"/><path d="M9 8v3M13 8v3M17 8v3M28 8v3M32 8v3"/></svg>
       <p>The flip cap must match your scope. Measure the <strong>outside</strong> of your scope's front bell (not the lens size printed on the scope), then pick the matching cap size from the cap maker's size chart.</p>
     </div>
 
-    <p class="ad-note">Prices shown on Amazon are in your local currency. Building your own may cost more than buying ready-made outside the USA.</p>
+    <p class="lens-note">Prices shown on Amazon are in your local currency. Building your own may cost more than buying ready-made outside the USA.</p>
   </section>
 </main>
 
