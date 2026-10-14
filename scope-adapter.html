@@ -41,7 +41,11 @@ a:hover{color:#F7B85E}
 .ad-video{margin:0;max-width:880px;display:flex;flex-direction:column;gap:12px}
 .ad-video-frame{position:relative;aspect-ratio:16/9;max-width:100%;border-radius:16px;overflow:hidden;border:1px solid #2F363E;background:#0F1215}
 .ad-video-frame iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
-.ad-video figcaption{font-size:15px;color:#98A1AB}
+.ad-video-intro{margin:0;font-size:17px;line-height:1.6;color:#F2F4F5;max-width:60ch}
+.ad-video figcaption{display:flex;flex-direction:column;gap:10px;font-size:15px;line-height:1.6;color:#98A1AB}
+.ad-video figcaption p{margin:0}
+.ad-video figcaption strong{color:#F2F4F5}
+.ad-disclaimer{font-size:14px;padding-top:10px;border-top:1px solid #2F363E}
 .ad-parts{list-style:none;margin:0;padding:0;border-top:1px solid #2F363E;max-width:880px}
 .ad-part{display:grid;grid-template-columns:1fr;gap:4px 24px;padding:18px 0;border-bottom:1px solid #2F363E;align-items:center}
 .ad-part-name{font-size:17px;font-weight:700;min-width:0}
@@ -149,12 +153,18 @@ a:hover{color:#F7B85E}
   <section id="build" class="ad-build" aria-labelledby="build-h">
     <h2 id="build-h">Build your own</h2>
 
+    <p class="ad-video-intro">The video below is a great walkthrough that covers everything you need to build your own adapter: parts, measurements and assembly.</p>
+
     <figure class="ad-video">
       <div class="ad-video-frame">
         <iframe src="https://www.youtube-nocookie.com/embed/E-xxInohcMI" title="The Best DIY Dry Fire Tool for Scoped Rifles" allow="encrypted-media; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen loading="lazy"></iframe>
         
       </div>
-      <figcaption>Video by <a href="https://www.youtube.com/@TruthThenFreedom" target="_blank" rel="noopener">Truth Then Freedom</a>. Original idea by chrisward3: <a href="https://www.canadiangunnutz.com/forum/threads/diy-iota-indoor-optical-training-aid.1687433/" target="_blank" rel="noopener">DIY IOTA (Indoor Optical Training Aid)</a> on Canadian Gun Nutz.</figcaption>
+      <figcaption>
+        <p><strong>Video credit:</strong> This video was created by <a href="https://www.youtube.com/@TruthThenFreedom" target="_blank" rel="noopener">Truth Then Freedom</a> on YouTube. All credit for the content goes to him. If you find it useful, please give it a like and subscribe to his channel to support his work.</p>
+        <p>Original idea by chrisward3: <a href="https://www.canadiangunnutz.com/forum/threads/diy-iota-indoor-optical-training-aid.1687433/" target="_blank" rel="noopener">DIY IOTA (Indoor Optical Training Aid)</a> on Canadian Gun Nutz.</p>
+        <p class="ad-disclaimer"><strong>Disclaimer:</strong> This video is shared for informational purposes only. Truth Then Freedom is not affiliated with, sponsored by or endorsing DRYFIRE (dryfireprecision.com). Any mention of “dry fire” in the video refers to the practice of dry-fire training, not to this website or app.</p>
+      </figcaption>
     </figure>
 
     <h3>Parts list</h3>
